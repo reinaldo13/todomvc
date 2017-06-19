@@ -3,6 +3,7 @@
   <script src="https://www.celljs.org/cell.js"></script>
   <script src="js/header.js"></script>
   <script src="js/footer.js"></script>
+  <script src="js/todos.js"></script>
 	<head>
 		<meta charset="utf-8">
 		<title>CellJS • TodoMVC</title>
@@ -12,25 +13,21 @@
 	<body>
 		<section class="todoapp">
 			<div id="header"></div>
-			<section class="main">
-				<input class="toggle-all" type="checkbox">
-				<label for="toggle-all">Mark all as complete</label>
-				<ul class="todo-list"></ul>
-			</section>
+			<div id="todos"></div>
 			<footer class="footer">
 				<span class="todo-count"></span>
 				<ul class="filters">
 					<li>
 						<a href="#/" class="selected">All</a>
 					</li>
-					<li>
+					<!-- <li>
 						<a href="#/active">Active</a>
 					</li>
 					<li>
 						<a href="#/completed">Completed</a>
-					</li>
+					</li> -->
 				</ul>
-				<button class="clear-completed">Clear completed</button>
+				<!-- <button class="clear-completed">Clear completed</button> -->
 			</footer>
 		</section>
 		<div id="footer"></div>
